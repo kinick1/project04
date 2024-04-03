@@ -6,7 +6,7 @@ import './index.css';
 import App from './example/Ex01'
 
 // =============================[STEP 1. state관리]=================================
-// 1) useState 개념
+// 1) useState 개념 추가사항
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <App />
