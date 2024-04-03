@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 // import App from './App';
-
+import App from './example/Ex01'
 
 // =============================[STEP 1. state관리]=================================
 // 1) useState 개념
