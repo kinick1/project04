@@ -14,13 +14,14 @@ const Ex01 = () => {
     - 내가 직접 만든 컴포넌트 활용할 수 없다.
   */
   // 변수 : 값은 변하나 화면에 출력되지 않는다.
-  let num=0
+  // let num=0
 
   // state
   // const [state이름. 그 state를 변경시키는 함수]= userState(초기값)
   //      - state 이름 : 변수처럼 활용 가능 (num)
   //      - 대부분 set + state이름을 붙임 (setNum)
   const [num2, setNum2]=useState(0);
+  
   /* useState를 사용하는 방법
       1. useState를 import 
       2. state를 선언
@@ -32,11 +33,15 @@ const Ex01 = () => {
   /** 숫자를 1씩 증가시키는 함수 */
   const increase=()=>{
     console.log("increase function")
-    num+=1;
+    //num+=1;
     setNum2(num2+1)
   }
+  /** 숫자를 1씩 감소시키는 함수 */
+  const decrease=()=>{
+    setNum2(num2-1)
+  }
   return (
-        /*
+    /*
       1. 리엑트 에서 Event 객체를 사용해보자.
       2. 왜 우리는 리액트에서 변수를 사용할수 없는지 알아보자.
       3. 변수를 대체해서 state를 사용해보자.
@@ -45,7 +50,7 @@ const Ex01 = () => {
     <div className='div-center'>
       <h1>{num2}</h1>
       <button onClick={increase}>+1</button>
-      {/* <button>-1</button> */}
+      <button onClick={decrease}>-1</button>
     </div>
   )
 }
