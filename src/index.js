@@ -14,7 +14,13 @@ import './index.css';
 // import App from './example/Ex02'
 
 // 3) useState 실습 : 랜덤게임 
-import App from './example/Ex03'
+// import App from './example/Ex03'
+
+// 4) useState 실습 : 주사위 게임
+// import App from './example/Ex04'
+
+// 5) useEffect 개념
+import App from './example/Ex05'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <App />

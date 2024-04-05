@@ -33,8 +33,8 @@ const Ex01 = () => {
   /** 숫자를 1씩 증가시키는 함수 */
   const increase=()=>{
     console.log("increase function")
-    //num+=1;
-    setNum2(num2+1)
+    num+=1;
+    setNum2(num2+1) //    --> 클로저함수(함수 제일 마지막에 실행)
   }
   /** 숫자를 1씩 감소시키는 함수 */
   const decrease=()=>{

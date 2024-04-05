@@ -9,16 +9,14 @@ const Ex03 = () => {
     const btnCk = (e) => {
         // 1~3사이의 랜덤한 숫자 출력
         const randomNum = parseInt(Math.random() * 3) + 1;
-        console.log('random function', randomNum);
 
         // 내가 선택한 숫자
         const selectedNum = parseInt(e.target.innerText);
-        console.log('inputNum', selectedNum);
 
         setRanNum(randomNum);
         setInputNum(selectedNum);
 
-        // 
+        
         if (randomNum === selectedNum) {
             setResult('정답입니다~');
         } else {
@@ -41,6 +39,7 @@ const Ex03 = () => {
                 <span>컴퓨터 숫자 : {randomNum}</span>
                 <br />
                 <span>{result}</span>
+                {/* {randomNum===inputNum ? <p>정답입니다!</p>: <p>땡!</p>} */}
             </div>
         </div>
     );
