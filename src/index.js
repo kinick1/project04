@@ -20,7 +20,10 @@ import './index.css';
 // import App from './example/Ex04'
 
 // 5) useEffect 개념
-import App from './example/Ex05'
+// import App from './example/Ex05'
+
+// 6) input태그
+import App from './example/Ex06'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <App />
