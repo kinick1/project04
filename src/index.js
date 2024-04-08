@@ -23,7 +23,13 @@ import './index.css';
 // import App from './example/Ex05'
 
 // 6) input태그
-import App from './example/Ex06'
+// import App from './example/Ex06'
+
+// 7) Map, fillter 다루기
+// import App from './example/Ex07'
+
+// 8) todo list 만들기
+import App from './example/Ex08'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <App />
