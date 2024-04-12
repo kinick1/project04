@@ -29,7 +29,15 @@ import './index.css';
 // import App from './example/Ex07'
 
 // 8) todo list 만들기
-import App from './example/Ex08'
+// import App from './example/Ex08'
+
+// =============================[STEP 1. 데이터 관리]=================================
+
+// 9) 양방향 데이터 전달
+// import App from './example/Ex09'
+
+// 10) context API 사용해보기
+import App from './example/Ex10'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <App />
