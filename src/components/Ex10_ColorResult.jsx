@@ -1,11 +1,15 @@
-import React from 'react'
+import React,{useContext} from 'react'
+import { ColorContext } from '../example/Ex10'
 
 const Ex10_ColorResult = () => {
+
+  const data=useContext(ColorContext)
+
   return (
     <div style={{
         width:'100px',
         height:'100px',
-        backgroundColor:'red'
+        backgroundColor:data.color
     }}></div>
   )
 }

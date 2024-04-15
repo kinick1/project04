@@ -37,7 +37,10 @@ import './index.css';
 // import App from './example/Ex09'
 
 // 10) context API 사용해보기
-import App from './example/Ex10'
+ import App from './example/Ex10'
+
+// 11) context 사용법
+// import App from './example/Ex11'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <App />

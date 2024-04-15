@@ -1,6 +1,8 @@
-import React from 'react'
+import React,{ useState,createContext} from 'react'
 import Ex10_ColorList from '../components/Ex10_ColorList'
 import Ex10_ColorResult from '../components/Ex10_ColorResult'
+
+export const ColorContext=createContext();
 
 const Ex10 = () => {
     /** Context란?
@@ -20,14 +22,18 @@ const Ex10 = () => {
      * 4) " i want data"= useContext
      * 
      */
+
+    const [color,setColor]=useState('');
   return (
     <div>
         <h1>책상 변경하기</h1>
         <p>원하는 색상을 클릭</p>
-        <Ex10_ColorList/>
+        <ColorContext.Provider value={{color:color,setColor:setColor}}>
+        <Ex10_ColorList></Ex10_ColorList>
         <hr></hr>
         <p>선택하신 색상입니다</p>
         <Ex10_ColorResult/>
+        </ColorContext.Provider>
     </div>
   )
 }
