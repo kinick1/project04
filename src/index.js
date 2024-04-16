@@ -37,10 +37,17 @@ import './index.css';
 // import App from './example/Ex09'
 
 // 10) context API 사용해보기
- import App from './example/Ex10'
+// import App from './example/Ex10'
 
 // 11) context 사용법
 // import App from './example/Ex11'
+
+// 12) open API로 데이터 관리 useEffect를 이용해
+// import App from './example/Ex12'
+
+ 
+// 13) useEffec를 사용해 날씨 데이터를 출력해보자
+ import App from './example/Ex13'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <App />

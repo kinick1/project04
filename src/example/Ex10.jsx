@@ -2,6 +2,7 @@ import React,{ useState,createContext} from 'react'
 import Ex10_ColorList from '../components/Ex10_ColorList'
 import Ex10_ColorResult from '../components/Ex10_ColorResult'
 
+
 export const ColorContext=createContext();
 
 const Ex10 = () => {

@@ -1,5 +1,26 @@
+/* ============================================== */
 .dice {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*================================================  */
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all{
+  background-color: aliceblue;
 }
